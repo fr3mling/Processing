@@ -23,7 +23,7 @@ void setup() {
     swap(i, swap_index);
   }
   rectMode(CORNERS);
-  frameRate(20);
+  //frameRate(20);
 }
 
 void draw() {
@@ -47,6 +47,7 @@ void draw() {
     
     rect(a,b,c,d);
   }
+
   
   if (current >= amount) {
     noLoop();
